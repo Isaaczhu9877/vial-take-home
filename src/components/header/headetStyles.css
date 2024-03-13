@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6px 24px 0px 32px;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.header__logo--title {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.header__user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.header__user {
+    font-size: 18px;
+    font-weight: 500;
+}
